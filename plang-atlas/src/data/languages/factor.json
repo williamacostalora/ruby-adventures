@@ -1,0 +1,15 @@
+{
+  "name": "Factor",
+  "tags": ["dyn_type", "concatenative"],
+  "year": 2003,
+  "links": [
+    {
+      "title": "Official home page",
+      "url": "https://factorcode.org/"
+    },
+    {
+      "title": "Documentation",
+      "url": "https://docs.factorcode.org/"
+    }
+  ]
+}

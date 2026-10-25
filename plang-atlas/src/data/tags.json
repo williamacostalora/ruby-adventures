@@ -10,5 +10,8 @@
   "oop": {
     "name": "Object-oriented",
     "about": "https://en.wikipedia.org/wiki/Object-oriented_programming"
-  }
-}
+  },
+  "concatenative":{
+  "name": "Concatenative",
+  "about":  "https://en.wikipedia.org/wiki/Concatenative_programming_language"
+}}

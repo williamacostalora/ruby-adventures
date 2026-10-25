@@ -11,6 +11,7 @@ end
 <html lang="en">
   <%= partial "_page_head", page_title: lang.name %>
 
+
   <body>
     <nav>
       <a href="/">⬆︎ P-Lang Atlas</a>
@@ -18,6 +19,9 @@ end
 
     <main>
       <h1><%= lang.name %></h1>
+        <% if lang.year? %>
+        <p> First appeared in <%= lang.year %> </p>
+        <% end %>
 
       <% if lang.tags? %>
         <h2>Tags</h2>
