@@ -1,0 +1,17 @@
+Reflection
+
+After comparing my answer to the solution, I found that my answers were pretty similar.
+Most differences came from formatting the spaces around the arrows =>, the braces, and where I put line breaks.
+I also had different block parameter names like I used "recipient" instead of "user" in desugaring.
+
+For desugaring as well, I chained the + calls with dots instead of nested parentheses. I believe that
+Ruby evaluates that chain from left to right so it should mean the same thing, however after reviewing the
+solution I think the parentheses make the left-associativity more explicit rather than leaving it implied with the dots.
+For loopless, my build_credits matched the alternate solution using select, sort_by, and map. The main solution used
+flat_map over role_order, which builds the output in the right order from the start rather than having to sort it afterwards.
+
+I learned from that since it mirrors the original nested loop more closely and keeps people within the same role in their
+original order which sort_by does not do. I found myself more comfortable using sort_by since it reminds me more of R and SQL.
+For the static site generator, my addition was creating a designated tag for concatenative languages and adding a page for Factor,
+my language excursion language. I also added the year to each language but rather than just having the year by itself, like the solution,
+I added a text saying, "First appeared in:"
